@@ -15,4 +15,5 @@ def filter_prime(list):
     for i in list:
         if i in prime:
             primes.append(i)
-    return primes
+    print(primes)
+    return 
