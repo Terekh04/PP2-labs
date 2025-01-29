@@ -12,5 +12,6 @@ def solve(numheads, numlegs):
             rabbit-=1
             chicken+=2
     ans=[int(rabbit), chicken]
-    return ans
+    print(ans)
+    return 
 #first element is a number of rabbits, second element is a number of chickens
