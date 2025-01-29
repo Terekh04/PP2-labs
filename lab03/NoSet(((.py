@@ -1,7 +1,7 @@
 def noSet(list1):
-    list2=[]
+    listt=[]
     for i in list1:
-        if i not in list2:
-            list2.append(i)
-    print(list2)
+        if i not in listt:
+            listt.append(i)
+    print(listt)
     return
