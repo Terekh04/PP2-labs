@@ -36,7 +36,7 @@ def spy_game(nums):
         print('False')
         return
 
-spy_game([8,12,0,12,23,0,3235,980,90,8765,678,98,7654,7,56,7890])
+spy_game([8,12,0,12,23,0,3235,980,90,8765,678,98,7654,7,56,7890]) #True
 
 
 
@@ -51,6 +51,6 @@ def reversedSentence(sentence):
         ans+=" "
     print(ans)
     return
-reversedSentence('I like mangos')
-reversedSentence('Je ne parle pas français')
-reversedSentence('Съешь ещё этих мягких французских булок, да выпей чаю')
+reversedSentence('I like mangos') #mangos like I
+reversedSentence('Je ne parle pas français') #français pas parle ne Je
+reversedSentence('Съешь ещё этих мягких французских булок, да выпей чаю') #чаю выпей да булок, французских мягких этих ещё Съешь
