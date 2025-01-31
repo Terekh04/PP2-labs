@@ -21,15 +21,13 @@ class Account:
 
 name = str(input("Write your name: "))
 balance = int(input("Write your started balance: "))
-change=True
 acc = Account(name, balance)
 currentBalance=acc.balance
-while change:
+while True:
     decision=input("Whould you like to 'deposit' or 'withdraw' your balance?('x' for exit)")
     if decision=='x':
         print('Your current balance:', currentBalance)
         currentBalance=acc.balance
-        change = False
         break
     elif decision=='deposit':
         dep=int(input('Value of deposit:'))
