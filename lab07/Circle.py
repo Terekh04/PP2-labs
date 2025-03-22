@@ -8,8 +8,8 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Moving Ball")
 
 ball_color = (255, 0, 0)  
-ball_x = screen_width // 2  #init pos x
-ball_y = screen_height // 2 # init y
+ball_x = screen_width // 2  
+ball_y = screen_height // 2 
 ball_radius = 25
 move_distance = 20
 

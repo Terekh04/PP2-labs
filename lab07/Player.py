@@ -18,7 +18,7 @@ pygame.mixer.music.load(music_files[current_track])
 
 font = pygame.font.Font(None, 24)
 
-kaif = pygame.image.load("../kaif.jpg")
+kaif = pygame.image.load("../kaiff.jpg")
 
 kaif = pygame.transform.scale(kaif, (200, 200))
 
@@ -43,7 +43,7 @@ while running:
                 current_track = (current_track - 1) % len(music_files)
                 pygame.mixer.music.load(music_files[current_track])
                 pygame.mixer.music.play()
-    
+    #ds
     screen.fill((255, 255, 255))
     instructions = font.render("Spacebar: Play/Pause, Left Arrow: Previous, Right Arrow: Next", True, (0, 0, 0))
     screen.blit(instructions, (10, 10))
